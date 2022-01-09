@@ -1,0 +1,203 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* font-family: 'Handlee', cursive; */
+
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: none;
+   
+}
+
+ .hr-style{
+     width: 50px;
+     border: 5px dotted white;
+     border-bottom: none;
+    
+} 
+/* header style start */
+
+.navbar-icon{
+    color: white;
+}
+.navbar-brand img{
+    width: 30px;
+    height: auto;
+}
+
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+
+}
+.nav-link:hover{
+    background: #2980b9;
+    color: white;
+    transform: scale(1.1);
+
+}
+
+header{
+    background-image: url("images/banner-photo.jpg");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.banner-container{
+    
+    height: 100vh;
+}
+
+.banner-container h1{
+    font-family: 'Handlee', cursive;
+    background-color: rgba(7,101,189,0.8);
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+
+
+.navbar{
+    padding: 1% 10% ;
+    background-color: rgba(0,0,0,.3);
+}
+
+/*Features Style start */
+
+#features{
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+
+.feature.col{
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+.feature.col :hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+
+}
+
+/*About-Me Style */
+#about-me{
+    padding: 4% 10%;
+    background: #e8ded2;
+}
+#about-me p{
+    font-size: 0.9rem;
+    font-weight: light;
+    margin-bottom: 0;
+}
+#about-me a{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: black;
+    
+}
+
+.star i{
+    width: 20px;
+   
+}
+
+/* tutorials style here */
+
+#tutorials{
+    padding: 4% 10%;
+    background: #a3d2ca;
+}
+
+.card{
+    transition: .4s;
+    border: 1px solid #ff02c0;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+    
+}
+
+/* Feedback style start here */
+
+#Feedback{
+    padding: 5%;
+    background:#5eaaa8;
+}
+
+.carousel-item{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 7% 15% ;
+}
+
+/* Contact me style start here */
+
+#Contacts{
+    padding: 2% 10%;
+    background:#5eaaa8;
+}
+
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+/* footer start */
+
+footer{
+   
+    padding: 1% 10%;
+    background:#056676;
+}
+
+footer a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+footer a:hover{
+    color: black;
+}
+
+
+/* Resposive style  */
+
+@media (max-width:768px){
+    .nav-link{
+        background: rgba(0,0,0,0.7);
+    }
+    .banner-container h1{
+        font-size: 2.5rem;
+    
+    }
+}
